@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CHApp</string>
+    <string name="under_logo">Computer History Quiz</string>
+
+    <string name="first_question">1. This is a woman who is called the first computer programmer. What is her name?</string>
+    <string name="fq_a">Mary Somerville</string>
+    <string name="fq_b">Ada Lovelace</string>
+    <string name="fq_c">Ana Lovengood</string>
+    <string name="fq_d">Mary Shelley</string>
+
+    <string name="second_question">2. Boolean algebra, also known as true and false statements were first introduced by:</string>
+    <string name="sc_a">Aristotle</string>
+    <string name="sc_b">Henry Boolean</string>
+    <string name="sc_c">George Boole</string>
+    <string name="sc_d">Giuseppe Peano</string>
+
+    <string name="third_question">3. Which of the following DID NOT appear in the design of the von Neumann architecture?</string>
+    <string name="tq_a">Memory</string>
+    <string name="tq_b">Multiplexer</string>
+    <string name="tq_c">Control Unit</string>
+    <string name="tq_d">PCI Slot</string>
+
+    <string name="fourth_question">4. What was the company who introduced the first commercially available portable computer (model 5100)?</string>
+
+    <string name="fifth_question">5. 8-inch floppy disks were first introduced into the market in:"</string>
+    <string name="ffq_a">1964</string>
+    <string name="ffq_b">1972</string>
+    <string name="ffq_c">1984</string>
+    <string name="ffq_d">1987</string>
+
+    <string name="sixth_question">6. Which of operating systems listed below was introduced earliest:</string>
+    <string name="sq_a">MS-DOS</string>
+    <string name="sq_b">Mac OS</string>
+    <string name="sq_c">Unix</string>
+
+    <string name="button">Check your score</string>
+</resources>
