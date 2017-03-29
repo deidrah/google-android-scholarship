@@ -19,9 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     *
      * Checks the score
-     *
      */
 
     public void checkScore(View view) {
@@ -29,13 +27,13 @@ public class MainActivity extends AppCompatActivity {
         RadioButton trueOne = (RadioButton) findViewById(R.id.true_one);
         Boolean isOneTrue = trueOne.isChecked();
         if (isOneTrue) {
-            score ++;
+            score++;
         }
 
         RadioButton trueTwo = (RadioButton) findViewById(R.id.true_two);
         Boolean isSecondTrue = trueTwo.isChecked();
         if (isSecondTrue) {
-            score ++;
+            score++;
         }
 
         CheckBox trueThreeA = (CheckBox) findViewById(R.id.true_three_a);
@@ -47,29 +45,29 @@ public class MainActivity extends AppCompatActivity {
         CheckBox falseThreeB = (CheckBox) findViewById(R.id.false_three_b);
         Boolean isThreeBFalse = falseThreeB.isChecked();
         if (isThreeBTrue && isThirdATrue && !isThreeAFalse && !isThreeBFalse) {
-            score ++;
+            score++;
         }
 
         EditText trueFour = (EditText) findViewById(R.id.true_four);
         String isFourTrue = trueFour.getText().toString();
         if (isFourTrue.equals("IBM")) {
-            score ++;
+            score++;
         }
 
         RadioButton trueFive = (RadioButton) findViewById(R.id.true_five);
         Boolean isFiveTrue = trueFive.isChecked();
         if (isFiveTrue) {
-            score ++;
+            score++;
         }
 
         RadioButton trueSix = (RadioButton) findViewById(R.id.true_six);
         Boolean isSixTrue = trueSix.isChecked();
         if (isSixTrue) {
-            score ++;
+            score++;
         }
 
         /**
-        * Creates toast message with the number of points gained
+         * Creates toast message with the number of points gained
          */
 
         if (score == 6) {
@@ -78,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "You gained " + score + " points for 6, try again maybe? ;)", Toast.LENGTH_LONG).show();
 
         score = 0;
+
     }
 
 }
