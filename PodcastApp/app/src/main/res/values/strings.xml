@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PodcastApp</string>
+    <string name="categoryOne">Recommended</string>
+    <string name="categoryTwo">Newest</string>
+    <string name="categoryThree">Player</string>
+    <string name="podcastTitle">The Title of the podcast</string>
+    <string name="mainDescription">This is the main activity to browse through the categories. To go to the category the user has to click on the one that interests him/her. There is an image with the most read book.</string>
+    <string name="playerDescription">This page opens the podcast you chose and lets you play it. You see the title and you just have to click on the big play Image to play your podcast or you can choose where to start. You can also go to the previous and the next podcast on the playlist. You can also go to the newest and recommended podcasts from here</string>
+    <string name="mediaNavPreview">Preview</string>
+    <string name="mediaNavNext">Next</string>
+    <string name="newestDescription">This activity shows the list of the newest podcasts. By clicking on any of them, user can open the media player. User can also go to the recommended category and to the player</string>
+    <string name="songOne">Song nr 1</string>
+    <string name="songTwo">Song nr 2</string>
+    <string name="songThree">Song nr 3</string>
+    <string name="songFour">Song nr 4</string>
+    <string name="recommendedDescription">This activity shows the list of the recommended podcasts. By clicking on any of them, user can open the media player. User can also see the rating of the apps and go to the newest category and to the player</string>
+    <string name="newest">See newest podcasts</string>
+    <string name="recommended">See recommended podcasts</string>
+    <string name="player">See your player</string>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.example.android.podcastapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/mainDescription" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/postermain" />
+
+        <TextView
+            android:id="@+id/recommended"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="0"
+            android:background="#ffeb3b"
+            android:gravity="center"
+            android:text="@string/categoryOne"
+            android:textColor="@color/textColor"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/newest"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="0"
+            android:background="#8bc34a"
+            android:gravity="center"
+            android:text="@string/categoryTwo"
+            android:textColor="@color/textColor"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/player"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="0"
+            android:background="#ffeb3b"
+            android:gravity="center"
+            android:text="@string/categoryThree"
+            android:textColor="@color/textColor"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</ScrollView>
