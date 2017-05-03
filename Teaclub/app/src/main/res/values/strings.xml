@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Teaclub</string>
+    <string name="subTitle">Tea lovers from all over the world!</string>
+    <string name="address">Tea Street 66, 888-888 Tealand</string>
+    <string name="mail">tealove@teaclub.com</string>
+    <string name="phone">123-456-789</string>
 </resources>
